@@ -23,7 +23,7 @@ export default function PrincipalFrame() {
         <Text fontWeight="bold" fontSize="xl">
           A way of visualizing what happens behind the algorithms that we use every day.
         </Text>
-        <Link fontSize="xl">Go to project →</Link>
+        <Link fontSize="xl" href="https://jesusjmm.github.io/sortgorithm/">Go to project →</Link>
       </VStack>
       <VStack height="100%" justifyContent="center" alignItems="center">
         <Fade in>

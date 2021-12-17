@@ -26,7 +26,7 @@ export default function Frame2() {
     <VStack key='h' p={4} alignItems={['start', 'center']}>
       <Heading size="2xl" textAlign="center">The data is awesome!</Heading>
       <Text fontWeight="bold" fontSize="lg" textAlign='center'>See how the data is sorting in real time</Text>
-      <Link fontSize="xl">Go to project →</Link>
+      <Link fontSize="xl" href="https://jesusjmm.github.io/sortgorithm/">Go to project →</Link>
     </VStack>
     </Fade>
   )

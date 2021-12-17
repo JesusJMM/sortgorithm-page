@@ -27,7 +27,7 @@ export default function Frame3() {
           <SelectAnAlgorithm/>
         </VStack>
       </Flex>
-      <Link fontSize="xl">Go to project →</Link>
+      <Link fontSize="xl" href="https://jesusjmm.github.io/sortgorithm/">Go to project →</Link>
     </VStack>
   )
 

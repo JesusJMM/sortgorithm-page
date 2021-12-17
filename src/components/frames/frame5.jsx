@@ -22,7 +22,7 @@ export default function Frame5() {
         </Text>
       <VStack pt={8} alignItems='start' w="100%" >
         <StyledLink fontSize="xl">Go back to portafolio ←</StyledLink>
-        <StyledLink fontSize="xl">Go to project →</StyledLink>
+        <StyledLink fontSize="xl" href="https://jesusjmm.github.io/sortgorithm/">Go to project →</StyledLink>
       </VStack>
       </Container>
     </Fade>
