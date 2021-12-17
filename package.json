@@ -2,6 +2,7 @@
   "name": "sort-algorithm-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "JesusJMM.github.io/sortgorithm-page",
   "dependencies": {
     "@babel/core": "^7.16.5",
     "@babel/plugin-syntax-flow": "^7.14.5",
@@ -15,6 +16,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.0.2",
     "framer-motion": "^4",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
