@@ -9,7 +9,7 @@ import StyledLink from '../ui/styledLink.jsx'
 
 export default function Frame5() {
   return (
-    <Fade>
+    <Fade in>
       <Heading w="100%" pt={20} pb={10} textAlign='center' size="2xl">Who do this?</Heading>
       <Container>
         <Text pb={8} fontSize="xl" fontWeight="medium">

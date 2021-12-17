@@ -1,5 +1,4 @@
 import {
-  Box,
   Text,
   SimpleGrid,
 } from '@chakra-ui/react'

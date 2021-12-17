@@ -22,7 +22,7 @@ const orders = [
 
 export default function Frame2() {
   const header = (
-    <Fade>
+    <Fade in>
     <VStack key='h' p={4} alignItems={['start', 'center']}>
       <Heading size="2xl" textAlign="center">The data is awesome!</Heading>
       <Text fontWeight="bold" fontSize="lg" textAlign='center'>See how the data is sorting in real time</Text>
