@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Container,
+} from '@chakra-ui/react'
+import PrincipalFrame from './components/frames/principal'
+import Frame2 from './components/frames/frame2.jsx'
+import Frame3 from './components/frames/frame3.jsx'
+import Frame5 from './components/frames/frame5.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxW="container.xl" p={0} pb={100}>
+      <PrincipalFrame />
+      <Frame2/>
+      <Frame3/>
+      <Frame5/>
+    </Container>
   );
 }
 
