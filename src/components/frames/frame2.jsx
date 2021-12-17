@@ -22,11 +22,13 @@ const orders = [
 
 export default function Frame2() {
   const header = (
+    <Fade>
     <VStack key='h' p={4} alignItems={['start', 'center']}>
       <Heading size="2xl" textAlign="center">The data is awesome!</Heading>
       <Text fontWeight="bold" fontSize="lg" textAlign='center'>See how the data is sorting in real time</Text>
       <Link fontSize="xl">Go to project →</Link>
     </VStack>
+    </Fade>
   )
   const comp = useBreakpointValue({ base: 'b', md: 'm' })
   const _ = useBreakpointValue({base:250, md: 400}) // update the component when the resolution change

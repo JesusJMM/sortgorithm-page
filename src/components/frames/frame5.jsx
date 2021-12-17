@@ -3,12 +3,13 @@ import {
   Heading,
   Text,
   Container,
+  Fade,
 } from '@chakra-ui/react'
 import StyledLink from '../ui/styledLink.jsx' 
 
 export default function Frame5() {
   return (
-    <>
+    <Fade>
       <Heading w="100%" pt={20} pb={10} textAlign='center' size="2xl">Who do this?</Heading>
       <Container>
         <Text pb={8} fontSize="xl" fontWeight="medium">
@@ -24,6 +25,6 @@ export default function Frame5() {
         <StyledLink fontSize="xl">Go to project →</StyledLink>
       </VStack>
       </Container>
-    </>
+    </Fade>
   )
 }

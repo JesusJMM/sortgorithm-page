@@ -1,11 +1,7 @@
 import {
-  Grid,
   VStack,
   Heading,
   Text,
-  Fade,
-  Box,
-  HStack,
   Flex,
 } from '@chakra-ui/react';
 import AddItems from './features/addItems';

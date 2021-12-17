@@ -2,7 +2,7 @@
   "name": "sort-algorithm-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "JesusJMM.github.io/sortgorithm-page",
+  "homepage": "http://jesusjmm.github.io/sortgorithm-page",
   "dependencies": {
     "@babel/core": "^7.16.5",
     "@babel/plugin-syntax-flow": "^7.14.5",
